@@ -4,30 +4,42 @@ tokens  = (
     'PARENTESIS_DER',
     'LLAVE_IZQ',
     'LLAVE_DER',
-    'CORCHETE_IZQ',
-    'CORCHETE_DER',
-    'COMILLAS',
+    'DESCRIPTOR',
     'ESPACIO',
-    'TEXTO',
     'MOVIMIENTO',
     'NUM_JUGADAS_NEGRAS',
     'NUM_JUGADAS_BLANCAS',
     'GANA_BLANCAS',
     'GANA_NEGRAS',
-    'TABLAS'
+    'TABLAS',
+    'TEXTO'
 )
 
 # Tokens
-t_PARENTESIS_IZQ    = r'\('
-t_PARENTESIS_DER    = r'\)'
-t_LLAVE_IZQ         = r'\{'
-t_LLAVE_DER         = r'\}'
-t_CORCHETE_IZQ      = r'\['
-t_CORCHETE_DER      = r'\]'
-t_COMILLAS          = r'"'
-t_ESPACIO           = r'\s'
-t_TEXTO             = r'[a-zA-Z0-9áÁéÉíÍóÓúÚñÑ]+'
 
+def t_newline(t):
+    r'\n+'
+    t.lexer.lineno += t.value.count("\n")
+
+def t_DESCRIPTOR(t):
+    r'\[(.+)\s"(.+)"\]'
+    return t
+
+def t_PARENTESIS_IZQ(t):
+    r'\('
+    return t
+
+def t_PARENTESIS_DER(t):
+    r'\)'
+    return t
+
+def t_LLAVE_IZQ(t):
+    r'\{'
+    return t
+
+def t_LLAVE_DER(t):
+    r'\}'
+    return t
 
 def t_NUM_JUGADAS_NEGRAS(t):
     r'\d+\.\.\.'
@@ -47,6 +59,10 @@ def t_NUM_JUGADAS_BLANCAS(t):
         t.value = 0
     return t
 
+def t_MOVIMIENTO(t):
+    r'([PNBRQK]?[a-h]?[1-8]?x?[a-h][1-8](\+\+|\+)?|O-O-O|O-O)(\!|\?)?'
+    return t
+
 def t_GANA_BLANCAS(t):
     r'1-0'
     return t
@@ -59,14 +75,14 @@ def t_TABLAS(t):
     r'1/2-1/2'
     return t
 
-def t_MOVIMIENTO(t):
-    r'([PNBRQK]?[a-h]?[1-8]?x?[a-h][1-8](\+\+|\+)?|O-O-O|O-O)(\!|\?)?'
+def t_ESPACIO(t):
+    r'\s+'
     return t
 
-def t_newline(t):
-    r'\n+'
-    t.lexer.lineno += t.value.count("\n")
-    
+def t_TEXTO(t):
+    r'[^\s{}()]+'
+    return t
+
 def t_error(t):
     print("Illegal character '%s'" % t.value[0])
     t.lexer.skip(1)
@@ -83,14 +99,11 @@ def p_partidas(t):
                 | partida '''
 
 def p_partida(t):
-    'partida : descripciones turnos'
+    'partida : descriptores turnos'
 
-def p_descripciones(t):
-    '''descripciones    : descripcion descripciones
-                        | descripcion'''
-
-def p_descripcion(t):
-    'descripcion : CORCHETE_IZQ TEXTO ESPACIO COMILLAS TEXTO COMILLAS CORCHETE_DER'
+def p_descriptores(t):
+    '''descriptores : DESCRIPTOR descriptores
+                    | DESCRIPTOR'''
 
 def p_turnos(t):
     '''turnos   : jugada_blancas turnos_aux
@@ -129,10 +142,8 @@ def p_comentario_contenidos(t):
 
 def p_comentario_contenido(t):
     '''comentario_contenido : comentario
-                            | TEXTO
-                            | NUM_JUGADAS_BLANCAS
-                            | NUM_JUGADAS_NEGRAS
-                            | MOVIMIENTO'''
+                            | MOVIMIENTO
+                            | TEXTO'''
 
 def p_empty(p):
      'empty :'
