@@ -1,0 +1,62 @@
+[Event "Meltwater Tour Final 2021"]
+[Site "Chess24 INT"]
+[Date "2021.10.03"]
+[EventDate "2021.09.23"]
+[Round "8.2"]
+[Result "1/2-1/2"]
+[White "Magnus Carlsen"]
+[Black "Levon Aronian"]
+[ECO "A18"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "94"]
+
+1. c4 Nf6 {Integer tempor, turpis fringilla consequat iaculis exf6} 2. Nc3 e6 3. e4 d5 4. e5 d4 5. exf6 dxc3 6. fxg7 cxd2+ 7. Bxd2 Bxg7 8. Qb3 Nc6 9. Nf3 Qe7 10. Bd3 a5 11. Be4 a4 12. Qb5 O-O 13. O-O f5 14. Bxc6 bxc6 15. Qxc6 Ra6 16. Qb5 Rb6 17. Qxa4 Bb7 18. c5 Rxb2 19. Rab1 Ra8 20. Qf4 Rxb1 21. Rxb1 Be4 22. Re1 {Suspendisse quis enim justo Rxa2 (Cras ut tempus erat Bxf3)} 22... Rxa2 23. Qg3 Bxf3 24. Bg5 Qxc5 25. gxf3 Qd6 26. Bf4 e5 27. Bxe5 Qg6 28. Bxg7 Qxg3+ 29. hxg3 Kxg7 30. Rc1 h5 31. Rxc7+ Kg6 32. Rc6+ Kg7 33. Rc4 Kg6 34. Kg2 Rb2 35. Rc8 Kg7 36. Re8 Ra2 37. Kf1 h4 38. g4 h3 39. Re1 fxg4 40. fxg4 Kf6 41. Kg1 Kg5 42. Re4 h2+ 43. Kxh2 Rxf2+ 44. Kg3 Rf1 45. Re5+ Kg6 46. Rf5 Rxf5 47. gxf5+ Kxf5 1/2-1/2
+
+
+[Event "Meltwater Tour Final 2021"]
+[Site "Chess24 INT"]
+[Date "2021.10.03"]
+[EventDate "2021.09.23"]
+[Round "8.3"]
+[Result "1/2-1/2"]
+[White "Levon Aronian"]
+[Black "Magnus Carlsen"]
+[ECO "E60"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "100"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 {Lorem ipsum dolor sit amet, dxc5 consectetur adipiscing elit} 3... Bg7 4. g3 d6 5. Bg2 Bf5 6. O-O O-O 7. Nc3 Ne4 8. Nxe4 Bxe4 9. Be3 c5 10. dxc5 Bxb2 11. Rb1 Bxb1 12. Qxb1 Bf6 13. Qxb7 Nd7 14. cxd6 exd6 15. Nd4 Rc8 16. Nc6 Qc7 17. Rb1 a5 18. Qxc7 Rxc7 19. Nxa5 Rfc8 20. Rd1 Be7 21. Bd5 Nc5 22. Bd4 Kf8 23. Rb1 Ra7 24. Rb5 Bd8 {Donec pretium leo a eros ullamcorper fringilla Nc6 (Vivamus sit amet lacus augue Rxa2)} 25. Nc6 Rxa2 26. Bxc5 dxc5 27. Rb7 Rxc6 28. Bxc6 Rxe2 29. Rb8 Ke7 30. Bd5 Ke8 31. h4 f5 32. Kf1 Rd2 33. Kg2 Kd7 34. Bg8 h6 35. Bh7 Rd6 36. h5 gxh5 37. Bxf5+ Ke7 38. Be4 h4 39. gxh4 Rd4 40. Bd5 Rxh4 41. Rb7+ Kd6 42. Kg3 Bg5 43. Rf7 Ke5 44. f4+ Rxf4 45. Rxf4 Bxf4+ 46. Kg4 Bg5 47. Kh5 Bf4 48. Kg4 Bg5 49. Kh5 Bf4 50. Kg4 1/2-1/2
+
+
+[Event "Meltwater Tour Final 2021"]
+[Site "Chess24 INT"]
+[Date "2021.10.03"]
+[EventDate "2021.09.23"]
+[Round "8.4"]
+[Result "0-1"]
+[White "Magnus Carlsen"]
+[Black "Levon Aronian"]
+[ECO "E24"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "52"]
+
+1. d4 {Fusce at ullamcorper ante} 1... Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 b6 6. f3 Nc6 7. e4 d6 8. Nh3 Na5 9. Bd3 Ba6 10. Rb1 Qd7 11. Qe2 c5 {Integer lacus nibh, volutpat ac metus nec (Nunc non eros vitae urna Bxc4 aliquam consectetur a quis felis) (Duis lacinia lacinia pharetra)} 12. O-O Qa4 13. Bf4 Rd8 14. Bxd6 Rxd6 15. e5 Rd8 16. exf6 gxf6 17. d5 Bxc4 18. Qe4 Rxd5 19. Nf4 f5 20. Qe3 Rd7 21. Qe5 Rf8 22. Bxf5 Bxf1 23. Bxe6 fxe6 24. Nxe6 Nc6 25. Qh5+ Rff7 26. Re1 Re7 0-1
+
+
+[Event "Meltwater Tour Final 2021"]
+[Site "chess24.com INT"]
+[Date "2021.10.04"]
+[EventDate "2021.09.25"]
+[Round "9.1"]
+[Result "1-0"]
+[White "Magnus Carlsen"]
+[Black "Wesley So"]
+[ECO "A01"]
+[WhiteElo "2855"]
+[BlackElo "2778"]
+[PlyCount "122"]
+
+1. b3 d5 2. Bb2 Nf6 3. Nf3 h6 4. g3 Bf5 5. d3 c5 6. Bg2 Nc6 7. Ne5 Nxe5 8. Bxe5 e6 9. Nd2 Be7 10. e4 Bg6 11. O-O O-O 12. Qe2 {Etiam lobortis risus eget ex laoreet (id tincidunt est tempus {Sed elementum dxe4})} 12... Bh5 13. f3 Nd7 14. Bb2 dxe4 15. dxe4 f5 16. exf5 exf5 17. Rad1 Bf6 18. Bxf6 Qxf6 19. Nc4 Rae8 20. Qf2 Re7 21. Rd6 Qc3 22. Rd3 Qf6 23. Rfd1 Ne5 24. Rd6 Qf7 25. Nxe5 Rxe5 26. f4 Re2 27. Qxc5 b6 28. Qc3 Rxg2+ 29. Kxg2 Bxd1 30. Rxd1 Re8 {Aliquam quis erat a dolor auctor luctus (Duis Rxb5 in aliquet lectus {Suspendisse vel imperdiet leo (Duis rutrum molestie Rxe5 lacus eu scelerisque)})} 31. Re1 Qd5+ 32. Kg1 Rd8 33. a4 a5 34. Kf2 Kh7 35. Qe5 Qf7 36. Re2 Qh5 37. Kg2 Rd5 38. Qe3 b5 39. axb5 Rxb5 40. Qf3 Qf7 41. Re5 Rxe5 42. fxe5 Qe6 43. Qe2 Qc6+ 44. Kf2 Kg6 45. h4 Kf7 46. h5 Ke6 47. c4 a4 48. bxa4 Qxa4 49. Qd3 Kxe5 50. Qd5+ Kf6 51. Qd6+ Kf7 52. Qg6+ Kg8 53. Qe6+ Kf8 54. Qxf5+ Ke7 55. Qe5+ Kf7 56. Qd5+ Kf6 57. Kf3 Qb3+ 58. Kg4 Qa2 59. Qf5+ Ke7 60. Qe4+ Kf6 61. Qg6+ 1-0
