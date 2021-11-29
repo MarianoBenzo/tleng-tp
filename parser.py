@@ -34,7 +34,6 @@ def p_descriptores(t):
 def p_turnos(t):
     '''turnos   : jugada_blancas turnos_aux
                 | resultado'''
-
     if len(t) == 3:
         nivel_maximo_sin_capturas = max(t[1].nivel_maximo_sin_capturas, t[2].nivel_maximo_sin_capturas)
         t[0] = Turnos('Blancas', t[1].numero_jugada, nivel_maximo_sin_capturas)
@@ -148,6 +147,9 @@ def p_empty(p):
 
 
 def p_error(t):
+    if not t:
+        print("End of File!")
+        return
     print(f"Error sintáctico en '{t.value}', linea {t.lineno}")
 
 

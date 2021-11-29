@@ -1,3 +1,3 @@
 # Teoria del Lenguaje - TP
 
-Correr con: python3 gramatica.py
+Correr con: python3 gramatica.py entrada.txt
